@@ -1,5 +1,5 @@
 import { User } from './user.model';
-import { settingTest, TestSetupResult } from '../test-utils/redis-test-setup';
+import { settingTest, TestSetupResult } from '../../test-config/redis-test-setup';
 import { INestApplication } from '@nestjs/common';
 
 // Применяем префиксы на уровне тестов, а не на уровне Redis
